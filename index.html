@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>混合布局</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        color: #ecf0f1;
+        font-weight: 600;
+        text-align: center;
+        width: 100%;
+        height: 600px;
+      }
+      .content {
+        margin: 0 auto;
+        width: 75%;
+        height: 100%;
+      }
+      .header {
+        width: 100%;
+        height: 5%;
+        background: #55efc4;
+      }
+      .banner{
+          width: 100%
+          ;height: 20%;
+        background:#7f8fa6;
+      }
+      .nav-left{
+        width: 60%;
+        height: 75%;
+        background: #3498db;
+        float: left;
+      }
+      .nav-right{
+        width: 40%;
+        height: 75%;
+        background: #9b59b6;
+        float: right;
+      }
+      .footer{
+          width: 100%;
+          height: 10%;
+          background: #16a085;
+          clear: both;
+    
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="header">页面头部</div>
+      <div class="banner">页面轮播图</div>
+      <div class="nav-left">页面中部</div>
+      <div class="nav-right">页面中部</div>
+      <div class="footer">页面底部</div>
+    </div>
+  </body>
+</html>
